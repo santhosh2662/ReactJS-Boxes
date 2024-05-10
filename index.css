@@ -1,0 +1,52 @@
+/* Write your code here. */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+  color: #0f172a;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.small {
+  background-color: #fbbf24;
+  color: #ffffff;
+  text-align: center;
+  font-family: Bree serif;
+  height: 200px;
+  width: 200px;
+}
+
+.medium {
+  background-color: #38bdf8;
+  color: #ffffff;
+  text-align: center;
+  font-family: Bree serif;
+  height: 300px;
+  width: 300px;
+}
+
+.large {
+  background-color: #ec4899;
+  color: #ffffff;
+  text-align: center;
+  font-family: Bree serif;
+  height: 400px;
+  width: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
